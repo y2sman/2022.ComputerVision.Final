@@ -26,5 +26,5 @@ OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=5 python train.py --model_name kjlee_mono
 ### Pretraining
 
 ```shell
-OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=5 python train.py --model_name finetuned_mono --load_weights_folder ~/tmp/mono_model/models/weights_19
+OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=5 python train.py --model_name finetuned_mono --load_weights_folder /home/kjlee/workspace/computervision/Sejong_computervision_termproject_monodepth/models/weights_19
 ```
